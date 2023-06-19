@@ -54,7 +54,7 @@ class FlagsForm(FlaskForm):
     flag3 = StringField('Flag 3', validators=[DataRequired()])
     submit = SubmitField('Enviar')
 
-@app.route('/', methods=['GET', 'POST'])
+@app.route('/flags', methods=['GET', 'POST'])
 def index():
     form = FlagsForm()
     if form.validate_on_submit():
@@ -77,5 +77,10 @@ def index():
 def success():
     return 'Sucesso! Nome registrado.'
 
+
+@app.route('/')
+def mainpage():
+    return render_template('index.html')
+
 if __name__ == '__main__':
-    app.run(port=80, debug=True)
+    app.run(port=80)

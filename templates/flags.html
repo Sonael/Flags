@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login Page</title>
+    <title>Flags</title>
     <style>
         html {
             height: 100%;
@@ -245,7 +245,11 @@
             {{ session['error'] }}
         </div>
         {% endif %}
-        <form id="login-form" action="/" method="POST">
+        <form id="login-form" action="/flags" method="POST">
+            <div class="user-box">
+                <input type="text" name="nome" required="">
+                <label>Seu Nome</label>
+            </div>
             <div class="user-box">
                 <input type="text" name="flag1" required="">
                 <label>Flag 1</label>
@@ -271,7 +275,6 @@
             </button>
         </form>
     </div>
-
     <script>
         function showHint(hint) {
             if (hint == 'hint 1')
@@ -279,7 +282,7 @@
             else if (hint == 'hint 2')
                 alert('john the ripper')
             else if (hint == 'hint 3')
-                alert('sudo')
+                alert('sudo -l')
         }
     </script>
 </body>

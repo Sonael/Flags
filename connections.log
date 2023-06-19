@@ -1,0 +1,75 @@
+2023-06-18 00:05:02,034 INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:80
+2023-06-18 00:05:02,035 INFO - [33mPress CTRL+C to quit[0m
+2023-06-18 00:05:02,622 INFO -  * Restarting with watchdog (windowsapi)
+2023-06-18 00:05:05,387 WARNING -  * Debugger is active!
+2023-06-18 00:05:05,475 INFO -  * Debugger PIN: 112-779-831
+2023-06-18 00:05:05,619 INFO - GET http://localhost/ - 127.0.0.1
+2023-06-18 00:05:06,550 INFO - GET http://localhost/ - 127.0.0.1 - status:200
+2023-06-18 00:05:06,553 INFO - 127.0.0.1 - - [18/Jun/2023 00:05:06] "GET / HTTP/1.1" 200 -
+2023-06-18 00:05:54,244 INFO - GET http://localhost/ - 127.0.0.1
+2023-06-18 00:05:54,268 INFO - GET http://localhost/ - 127.0.0.1 - status:200
+2023-06-18 00:05:54,270 INFO - 127.0.0.1 - - [18/Jun/2023 00:05:54] "GET / HTTP/1.1" 200 -
+2023-06-18 00:05:58,457 INFO - POST http://localhost/ - 127.0.0.1
+2023-06-18 00:05:58,462 INFO - POST http://localhost/ - 127.0.0.1 - status:200
+2023-06-18 00:05:58,463 INFO - 127.0.0.1 - - [18/Jun/2023 00:05:58] "POST / HTTP/1.1" 200 -
+2023-06-18 00:06:45,037 INFO - POST http://localhost/ - 127.0.0.1
+2023-06-18 00:06:45,448 INFO - POST http://localhost/ - 127.0.0.1 - status:200
+2023-06-18 00:06:45,451 INFO - 127.0.0.1 - - [18/Jun/2023 00:06:45] "POST / HTTP/1.1" 200 -
+2023-06-18 00:06:55,716 INFO - POST http://localhost/ - 127.0.0.1
+2023-06-18 00:06:55,721 INFO - POST http://localhost/ - 127.0.0.1 - status:200
+2023-06-18 00:06:55,723 INFO - 127.0.0.1 - - [18/Jun/2023 00:06:55] "POST / HTTP/1.1" 200 -
+2023-06-19 04:17:49,436 INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:80
+2023-06-19 04:17:49,437 INFO - [33mPress CTRL+C to quit[0m
+2023-06-19 04:18:13,882 INFO - GET http://localhost/ - 127.0.0.1
+2023-06-19 04:18:13,979 INFO - GET http://localhost/ - 127.0.0.1 - status:200
+2023-06-19 04:18:13,980 INFO - 127.0.0.1 - - [19/Jun/2023 04:18:13] "GET / HTTP/1.1" 200 -
+2023-06-19 04:18:15,157 INFO - GET http://localhost/favicon.ico - 127.0.0.1
+2023-06-19 04:18:15,162 INFO - GET http://localhost/favicon.ico - 127.0.0.1 - status:404
+2023-06-19 04:18:15,162 INFO - 127.0.0.1 - - [19/Jun/2023 04:18:15] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-06-19 04:18:28,706 INFO - GET http://localhost/flags - 127.0.0.1
+2023-06-19 04:18:28,808 INFO - GET http://localhost/flags - 127.0.0.1 - status:200
+2023-06-19 04:18:28,809 INFO - 127.0.0.1 - - [19/Jun/2023 04:18:28] "GET /flags HTTP/1.1" 200 -
+2023-06-19 04:18:45,143 INFO - POST http://localhost/ - 127.0.0.1
+2023-06-19 04:18:45,144 INFO - POST http://localhost/ - 127.0.0.1 - status:405
+2023-06-19 04:18:45,144 INFO - 127.0.0.1 - - [19/Jun/2023 04:18:45] "[31m[1mPOST / HTTP/1.1[0m" 405 -
+2023-06-19 04:20:18,751 INFO - GET http://localhost/ - 127.0.0.1
+2023-06-19 04:20:18,752 INFO - GET http://localhost/ - 127.0.0.1 - status:200
+2023-06-19 04:20:18,752 INFO - 127.0.0.1 - - [19/Jun/2023 04:20:18] "GET / HTTP/1.1" 200 -
+2023-06-19 04:20:29,491 INFO - GET http://localhost/flags - 127.0.0.1
+2023-06-19 04:20:29,492 INFO - GET http://localhost/flags - 127.0.0.1 - status:200
+2023-06-19 04:20:29,493 INFO - 127.0.0.1 - - [19/Jun/2023 04:20:29] "GET /flags HTTP/1.1" 200 -
+2023-06-19 04:20:35,704 INFO - POST http://localhost/ - 127.0.0.1
+2023-06-19 04:20:35,706 INFO - POST http://localhost/ - 127.0.0.1 - status:405
+2023-06-19 04:20:35,706 INFO - 127.0.0.1 - - [19/Jun/2023 04:20:35] "[31m[1mPOST / HTTP/1.1[0m" 405 -
+2023-06-19 04:21:49,849 INFO - GET http://localhost/flags - 127.0.0.1
+2023-06-19 04:21:49,849 INFO - GET http://localhost/flags - 127.0.0.1 - status:200
+2023-06-19 04:21:49,850 INFO - 127.0.0.1 - - [19/Jun/2023 04:21:49] "GET /flags HTTP/1.1" 200 -
+2023-06-19 04:21:57,209 INFO - POST http://localhost/ - 127.0.0.1
+2023-06-19 04:21:57,210 INFO - POST http://localhost/ - 127.0.0.1 - status:405
+2023-06-19 04:21:57,210 INFO - 127.0.0.1 - - [19/Jun/2023 04:21:57] "[31m[1mPOST / HTTP/1.1[0m" 405 -
+2023-06-19 04:22:20,370 INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:80
+2023-06-19 04:22:20,371 INFO - [33mPress CTRL+C to quit[0m
+2023-06-19 04:22:25,901 INFO - GET http://localhost/flags - 127.0.0.1
+2023-06-19 04:22:25,935 INFO - GET http://localhost/flags - 127.0.0.1 - status:200
+2023-06-19 04:22:25,936 INFO - 127.0.0.1 - - [19/Jun/2023 04:22:25] "GET /flags HTTP/1.1" 200 -
+2023-06-19 04:22:32,125 INFO - POST http://localhost/flags - 127.0.0.1
+2023-06-19 04:22:32,126 INFO - POST http://localhost/flags - 127.0.0.1 - status:200
+2023-06-19 04:22:32,127 INFO - 127.0.0.1 - - [19/Jun/2023 04:22:32] "POST /flags HTTP/1.1" 200 -
+2023-06-19 04:23:07,841 INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:80
+2023-06-19 04:23:07,841 INFO - [33mPress CTRL+C to quit[0m
+2023-06-19 04:23:13,476 INFO - The CSRF session token is missing.
+2023-06-19 04:23:13,477 INFO - POST http://localhost/flags - 127.0.0.1 - status:400
+2023-06-19 04:23:13,477 INFO - 127.0.0.1 - - [19/Jun/2023 04:23:13] "[31m[1mPOST /flags HTTP/1.1[0m" 400 -
+2023-06-19 04:23:17,105 INFO - GET http://localhost/flags - 127.0.0.1
+2023-06-19 04:23:17,116 INFO - GET http://localhost/flags - 127.0.0.1 - status:200
+2023-06-19 04:23:17,117 INFO - 127.0.0.1 - - [19/Jun/2023 04:23:17] "GET /flags HTTP/1.1" 200 -
+2023-06-19 04:23:34,375 INFO - POST http://localhost/flags - 127.0.0.1
+2023-06-19 04:23:34,458 INFO - POST http://localhost/flags - 127.0.0.1 - status:302
+2023-06-19 04:23:34,458 INFO - 127.0.0.1 - - [19/Jun/2023 04:23:34] "[32mPOST /flags HTTP/1.1[0m" 302 -
+2023-06-19 04:23:34,673 INFO - GET http://localhost/success - 127.0.0.1
+2023-06-19 04:23:34,673 INFO - GET http://localhost/success - 127.0.0.1 - status:200
+2023-06-19 04:23:34,674 INFO - 127.0.0.1 - - [19/Jun/2023 04:23:34] "GET /success HTTP/1.1" 200 -
