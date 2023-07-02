@@ -5,26 +5,26 @@ from wtforms import StringField, SubmitField
 from wtforms.validators import DataRequired
 import logging
 import os
+from apscheduler.schedulers.background import BackgroundScheduler
+from apscheduler.triggers.interval import IntervalTrigger
+from datetime import timedelta
 
 app = Flask(__name__)
 app.secret_key = os.urandom(24).hex()
 csrf = CSRFProtect(app)
 
-
 # Configurar o arquivo de log
 log_file = "connections.log"
-logging.basicConfig(filename=log_file, level=logging.INFO,
-                    format='%(asctime)s %(levelname)s - %(message)s')
+logging.basicConfig(filename=log_file, level=logging.INFO, format='%(asctime)s %(levelname)s - %(message)s')
 
 logger = logging.getLogger(__name__)
 
-# Middleware para registrar as conexões
-@app.before_request
-def log_request_info():
-    client_ip = request.remote_addr
-    log_message = f"{request.method} {request.url} - {client_ip}"
-    logger.info(log_message)
+# Agendador de tarefas
+scheduler = BackgroundScheduler(daemon=True)
+scheduler.add_job(func=lambda: open(log_file, 'w').close(), trigger=IntervalTrigger(days=1))
+scheduler.start()
 
+# Middleware para registrar as conexões
 @app.after_request
 def log_response_info(response):
     client_ip = request.remote_addr
